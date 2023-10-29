@@ -2,13 +2,18 @@
 title: "Website"
 output: 
   html_document:
+    code_folding: hide
     toc: true # toc = table of content
     toc_float: true # floating toc
 ---
 
-Start by creating a github repo ending in `.github.io`
+## Code folding 
+
+Interactive of showing and hiding code. 
 
 # This is Jeff's awesome website
+
+Start by creating a github repo ending in `.github.io`
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
 ## Links
@@ -25,6 +30,10 @@ Hi Laundry!
 
 ![](Laundie.jpeg) 
 
+OR
+
+<img src = "Laundie.jpeg" stype = "width: 75%">
+
 ## Links to pages within the sites
 
 We don't have to use `https://` since the file is from local repo.
@@ -33,7 +42,37 @@ We don't have to use `https://` since the file is from local repo.
 
 ## Cross-sites YAML
 
+- Click [here](https://fontawesome.com/icons) to browse icons. 
+
 - create a text file `_site.yml` to specify website layout + navigation bar + home button
+
+- close out the Rmd files and re-open, then use `Build` to `Build Website` -> apply all yml to all sites 
+
+## Browse Theme
+
+https://bootswatch.com/3/
+
+then change the `theme` in the `output` part of `_site.yml`.
+
+
+## Making tabs with `.tabset` {.tabset}
+
+### Tab 1 
+
+Tab 1 content
+
+### Tab 2 
+
+Tab 2 content
+
+## New section here
+
+This ends the tabs section.
+
+## Dashboard
+
+- If created within a website, click `build website` again to make sure the flex dashboard looks proper.
+
 
 
 
