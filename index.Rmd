@@ -1,0 +1,42 @@
+---
+title: "Website"
+output: 
+  html_document:
+    toc: true # toc = table of content
+    toc_float: true # floating toc
+---
+
+Start by creating a github repo ending in `.github.io`
+
+# This is Jeff's awesome website
+
+![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+## Links
+
+How to add hyperlinks
+
+- [Name](links)
+- [Google](https://google.com/)
+- [P8105](https://p8105.com/) 
+
+## Local files
+
+Hi Laundry!
+
+![](Laundie.jpeg) 
+
+## Links to pages within the sites
+
+We don't have to use `https://` since the file is from local repo.
+
+(Additional)[additional.html]
+
+## Cross-sites YAML
+
+- create a text file `_site.yml` to specify website layout + navigation bar + home button
+
+
+
+
+
+
